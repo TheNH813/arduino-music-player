@@ -1,3 +1,9 @@
+There was a problem in the original code making it impossible to compile the program in newer versions of the Arduino IDE, or on Arduino UNO boards in any version of the IDE. All it required was changing which register was used in an operation.
+
+I'm new to GitHub, this will be the first time I ever fork a project.
+
+*** Original readme.md contents below this line ***
+
 Few people have been asking for sources of my Arduino music player so I created this Google Code project. The player is able to play MOD/S3M/XM/IT files on Arduino stored in MCU program memory. Here's an example video: http://www.youtube.com/watch?v=XZfw7l-ZxqE
 
 I started this project to be able to play 4 channel Amiga MOD files on Arduino Uno via 8-bit mono resistor DAC. Later I expanded it to support S3M, XM and IT formats as well for more audio channels and ability to play more music that's available. I also added Teensy 3.0 support and structured the code so that it should be fairly easy to add support for other Arduino platforms & DAC types as well (maybe even non-Arduino platforms).
