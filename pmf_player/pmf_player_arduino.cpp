@@ -200,7 +200,7 @@ void pmf_player::mix_buffer(mixer_buffer &buf_, unsigned num_samples_)
       "pop %B[buffer_pos] \n\t"
       "pop %A[buffer_pos] \n\t"
 
-      :[sample_volume] "+d" (sample_volume)
+      :[sample_volume] "+a" (sample_volume)
       ,[sample_speed] "+l" (sample_speed)
       ,[sample_pos_frc] "+l" (sample_pos_frc)
       ,[sample_pos_int] "+z" (sample_pos_int)
