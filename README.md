@@ -9,3 +9,4 @@ There was a problem in the original code making it impossible to compile the pro
 In the future, I will be most likely making small modifications to improve performance. This is, however, after I become more experienced in programming for the Arduino. I'm new to GitHub, and this is the first time I ever forked a project. If I did something wrong or you have any advice to give, please tell me.
 
 *** This project is originally created by JarkkoPFC ***
+Original Readme in JarkkoPFC_Readme.txt
